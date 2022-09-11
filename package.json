@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "parcel serve ./src/index.hbs --no-cache",
+    "build": "parcel build ./src/index.hbs --no-cache"
+  },
+  "devDependencies": {
+    "@partiellkorrekt/parcel-transformer-handlebars": "^1.0.2",
+    "parcel": "^2.7.0"
+  }
+}
